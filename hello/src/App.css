@@ -1,22 +1,47 @@
-#logo-nav {
-  margin-left: 7vw;
-  margin-top: 2.5vh;
-}
-#logo-bar {
-  width: 5vw;
-  margin-top: 2.5vh;
-  margin-right: 7vw;
+body {
+  margin: 0;
+  background-color: gray;
 }
 
 h1 {
-  margin-left: 7vw;
-  margin-top: 10vh;
+  margin-left: 2em;
+  margin-top: 3em;
   font-size: 50px;
   width: 45%;
+  color: white;
 }
 
 h5 {
-  margin-left: 7vw;
+  margin-left: 2em;
   font-size: 18px;
-  width: 45%;
+  width: 60%;
+  color: white;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-between;
+}
+#awesome-button {
+  padding: 20px;
+  border: transparent;
+  background-color: white;
+  margin-left: 5em;
+  margin-top: 5em;
+  margin-bottom: 5em;
+  width: 15%;
+  font-size: 20px;
+}
+
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.image-container {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
 }
