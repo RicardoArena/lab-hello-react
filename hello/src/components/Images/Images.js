@@ -7,7 +7,7 @@ function Images() {
   return (
     <div className="images">
       <div className="image-container">
-        <img id="card-image" src={Logo1} alt="logo1" />
+        <img src={Logo1} alt="logo1" />
         <h3>Declarative</h3>
         <p>React makes it painless to create interactive UIs.</p>
       </div>
