@@ -1,0 +1,22 @@
+#logo-nav {
+  margin-left: 7vw;
+  margin-top: 2.5vh;
+}
+#logo-bar {
+  width: 5vw;
+  margin-top: 2.5vh;
+  margin-right: 7vw;
+}
+
+h1 {
+  margin-left: 7vw;
+  margin-top: 10vh;
+  font-size: 50px;
+  width: 45%;
+}
+
+h5 {
+  margin-left: 7vw;
+  font-size: 18px;
+  width: 45%;
+}
